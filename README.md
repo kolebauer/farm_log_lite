@@ -1,30 +1,33 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+Farm Log Lite is a simple mobile app that helps me practice using Flutter for real-world data collection.  
+This app lets a user add farm log entries with details like the field name, crop, activity, and date.  
+All logs are saved locally on the device using SQLite, so they stay even if the app is closed.
 
-{Provide a description of your app.  Describe how to use the app.}
+The purpose of this app is to build my experience with multi-screen navigation, local databases, and user input handling in Flutter.
 
-{Describe your purpose for creating this app.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the app running and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/e232SNAs8ps)
 
 # Development Environment
 
-{Describe the tools that you used to develop the app}
+- Flutter SDK
+- Dart programming language
+- Android Studio Emulator
+- VS Code as my code editor
 
-{Describe the programming language that you used and any libraries.}
+I used the `sqflite` and `path` packages for local storage.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Flutter Documentation](https://docs.flutter.dev/)
+* [Sqflite Plugin Docs](https://pub.dev/packages/sqflite)
+* [Path Package Docs](https://pub.dev/packages/path)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Add a date picker instead of typing dates manually
+* Add the ability to edit or delete saved logs
+* Add better styling and layout improvements
+* Add in-depth tracking
+* Tracking for equipment maintenance
+* Livestock Tracking
